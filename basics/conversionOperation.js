@@ -66,4 +66,17 @@ let gameCounter = 100
 gameCounter++;
 console.log(gameCounter);
 
+/* If used postfix, with operator after operand (for example, x++), the increment operator increments and returns the value before incrementing.
+e.g:
+let x = 3;
+const y = x++;
+// x = 4 y = 3 // return value before increament to the y variable
+
+If used prefix, with operator before operand (for example, ++x), the increment operator increments and returns the value after incrementing.
+e.g:
+let x = 3;
+const y = ++x;
+// x is 4; y is 4 // return increament value first to y 
+*/
+
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
