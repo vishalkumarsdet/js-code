@@ -53,7 +53,17 @@ let str2 = "kumar"
 let str3 = str1+str2;
 console.log(str3);
 
-console.log("1" + 2);
-console.log(1 + "2");
+console.log("1" + 2);  // if first string then all will convert in string
+console.log(1 + "2");  
 console.log("1" + 2 + 2);
-console.log(1 + 2 + "2");
+console.log(1 + 2 + "2"); // in this case first operation will perfrom then it will convert in string 
+
+console.log(+true); // it will print true
+console.log(+""); // it will print 0
+
+let gameCounter = 100
+++gameCounter;
+gameCounter++;
+console.log(gameCounter);
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
