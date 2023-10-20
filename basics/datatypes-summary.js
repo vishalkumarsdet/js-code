@@ -32,3 +32,27 @@ console.log(Id === anotherId);
  console.log(typeof myFunction);
 
  // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+ /* ================================ Memory ====================================== */
+
+ // Stack (Primitive) -> a copy of original value, Heap (Non-Primitive) -> original value ref
+
+ let myName = "javascriptcodingpractice"
+
+ let anotherName = myName
+ anotherName = "javascriptcode"
+
+ console.log(anotherName);
+ console.log(myName);
+
+ let userOne = {
+    email: "abc@test.com",
+    upi: "upi@123",
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "test@abc.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
